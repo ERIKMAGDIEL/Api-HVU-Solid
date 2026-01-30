@@ -8,9 +8,10 @@ import cultosRoutes from './routes/cultos.routes.js';
 import reportesRoutes from './routes/reportes.routes.js';
 import amonestacionesRoutes from './routes/amonestaciones.routes.js';
 import asistenciaRoutes from './routes/asistencia.routes.js';
-import usuariosRoutes from './routes/usuarios.routes.js';
+import usuariosRoutes from './src/usuarios/user.routes.js'
 import dormitoriosRoutes from './routes/dormitorios.routes.js';
 import configuracionRoutes from './routes/configuracion.routes.js'
+
 
 dotenv.config();
 const app = express();
